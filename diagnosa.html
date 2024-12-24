@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnosa Penyakit Tanaman Cabai Rawit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Diagnosa Penyakit Tanaman Cabai Rawit</h1>
+        <form action="diagnosis.php" method="POST">
+            <h3>Pilih Gejala yang Dialami Tanaman:</h3>
+            <div class="checkbox-group">
+                <input type="checkbox" name="gejala[]" value="1"> Bercak kuning pada daun <br>
+                <input type="checkbox" name="gejala[]" value="2"> Bercak coklat pada daun <br>
+                <input type="checkbox" name="gejala[]" value="3"> Jamur orange pada daun <br>
+                <input type="checkbox" name="gejala[]" value="4"> Terdapat jamur pada buah <br>
+                <input type="checkbox" name="gejala[]" value="5"> Buah kering <br>
+                <input type="checkbox" name="gejala[]" value="6"> Daun rontok <br>
+                <input type="checkbox" name="gejala[]" value="7"> Buah berwarna kuning <br>
+                <input type="checkbox" name="gejala[]" value="8"> Pertumbuhan tidak normal <br>
+                <input type="checkbox" name="gejala[]" value="9"> Daun keriting dimulai dari pucuk <br>
+                <input type="checkbox" name="gejala[]" value="10"> Ukuran daun kecil <br>
+                <input type="checkbox" name="gejala[]" value="11"> Batang lembek <br>
+                <input type="checkbox" name="gejala[]" value="12"> Tanaman layu <br>
+                <input type="checkbox" name="gejala[]" value="13"> Daun hitam <br>
+            </div>
+            <button type="submit" class="btn">Diagnosa</button>
+        </form>
+    </div>
+</body>
+</html>
